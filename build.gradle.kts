@@ -1,5 +1,5 @@
 plugins {
-  kotlin("jvm") version "1.3.40"
+  kotlin("jvm") version "1.3.61"
 }
 
 repositories {
@@ -7,7 +7,7 @@ repositories {
   mavenCentral()
 }
 
-val ktorVersion = "1.2.2"
+val ktorVersion = "1.3.0-rc"
 val logbackVersion = "1.2.3"
 
 dependencies {
