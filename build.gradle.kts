@@ -1,5 +1,5 @@
 plugins {
-  kotlin("multiplatform") version "1.3.40"
+  kotlin("multiplatform") version "1.3.61"
 }
 
 kotlin {
@@ -14,7 +14,7 @@ repositories {
   mavenCentral()
 }
 
-val ktorVersion = "1.2.2"
+val ktorVersion = "1.3.0-rc"
 val logbackVersion = "1.2.3"
 
 kotlin.sourceSets["jsMain"].dependencies {
